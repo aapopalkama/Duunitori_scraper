@@ -8,7 +8,7 @@ from pymongo import MongoClient
 
 def main():
 #   Connect to mongoDb
-    client = MongoClient("mongodb+srv://palkaap:Nillaniemi123@cluster0.cslgm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")   
+    client = MongoClient("mongodb+srv://<UserName>:<Password>@cluster0.cslgm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")   
     db = client["Duunitori"]
     col = db["duunitori_1"]
     #   Duunitori url
